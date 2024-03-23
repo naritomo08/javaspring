@@ -100,7 +100,7 @@ public class <プロジェクト名>Application extends SpringBootServletInitial
 
 Eclipse画面でプロジェクトを右クリックし、
 
-実行- 9 Mavenビルドをクリックする。
+実行 - 9 Mavenビルドをクリックする。
 
 targetフォルダにwarファイルが完成されること。
 
