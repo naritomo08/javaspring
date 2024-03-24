@@ -6,6 +6,7 @@
 <link th:href="@{/css/style.css}" rel="stylesheet" type="text/css">
 </head>
 <body>
+	<h1>ToDoリスト</h1>
 	<table border="1">
 		<tr>
 			<th>id</th>
@@ -18,7 +19,7 @@
 		<tr th:each="todo:${todoList}">
 			<td th:text="${todo.id}"></td>
 			<td th:text="${todo.title}"></td>
-			<td th:text="${todo.inpprtance == 1 ? '★★★':'★'}"></td>
+			<td th:text="${todo.importance == 1 ? '★★★':'★'}"></td>
 			<td th:text="${todo.urgency == 1 ? '★★★':'★'}"></td>
 			<td th:text="${todo.deadline}"></td>
 			<td th:text="${todo.done == 'Y' ? '完了':''}"></td>

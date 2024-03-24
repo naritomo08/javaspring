@@ -52,6 +52,12 @@ http://localhost:8080/
 
 数あてゲームの実施
 
+## Todolist
+
+http://localhost:8080/todo
+
+Todoリスト
+
 ## 別のtomcatへの展開方法
 
 あらかじめtomcat10/jdk17の環境を用意すること。
