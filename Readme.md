@@ -80,6 +80,15 @@ pom.xmlに対し、以下の内容を追記する。
     <artifactId>spring-boot-starter-thymeleaf</artifactId>
 </dependency>
 
+・Lombokを使用する場合追記
+
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.8</version>
+    <scope>provided</scope>
+</dependency>
+
 ```
 
 ### プログラム起動ソース更新
