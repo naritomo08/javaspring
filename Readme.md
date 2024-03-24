@@ -85,8 +85,21 @@ pom.xmlに対し、以下の内容を追記する。
 <dependency>
     <groupId>org.projectlombok</groupId>
     <artifactId>lombok</artifactId>
-    <version>1.18.8</version>
     <scope>provided</scope>
+</dependency>
+
+・Spring Data JPAを使用する場合追記
+
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-data-jpa</artifactId>
+</dependency>
+
+・PostgreSQL PostgreSQLDriverを使用する場合追記
+
+<dependency>
+    <groupId>org.postgresql</groupId>
+    <artifactId>postgresql</artifactId>
 </dependency>
 
 ```
