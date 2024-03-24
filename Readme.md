@@ -38,6 +38,20 @@ http://localhost:8080/input.html
 
 で各種フォーム情報をいれるとresult.htmlから入力した結果が出てくる。
 
+## Registration2
+
+http://localhost:8080/input.html
+
+で各種フォーム情報をいれるとresult.htmlから入力した結果が出てくる。
+
+@ModelAttributeを使用した入力データ利用
+
+## Game
+
+http://localhost:8080/
+
+数あてゲームの実施
+
 ## 別のtomcatへの展開方法
 
 あらかじめtomcat10/jdk17の環境を用意すること。
