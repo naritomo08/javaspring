@@ -52,6 +52,24 @@ http://localhost:8080/
 
 数あてゲームの実施
 
+## Todolist
+
+http://localhost:8080/todo
+
+Todoリスト表示機能
+
+## Todolist2
+
+http://localhost:8080/todo
+
+Todoリスト追加機能
+
+## Todolist3
+
+http://localhost:8080/todo
+
+Todoリスト更新削除機能
+
 ## 別のtomcatへの展開方法
 
 あらかじめtomcat10/jdk17の環境を用意すること。
@@ -73,33 +91,11 @@ pom.xmlに対し、以下の内容を追記する。
     <scope>provided</scope>
 </dependency>
 
-・thymeleafを使用する場合追記
+・thymeleafを使用する場合上記のあとに追記
 
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-thymeleaf</artifactId>
-</dependency>
-
-・Lombokを使用する場合追記
-
-<dependency>
-    <groupId>org.projectlombok</groupId>
-    <artifactId>lombok</artifactId>
-    <scope>provided</scope>
-</dependency>
-
-・Spring Data JPAを使用する場合追記
-
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-data-jpa</artifactId>
-</dependency>
-
-・PostgreSQL PostgreSQLDriverを使用する場合追記
-
-<dependency>
-    <groupId>org.postgresql</groupId>
-    <artifactId>postgresql</artifactId>
 </dependency>
 
 ```
