@@ -56,7 +56,13 @@ http://localhost:8080/
 
 http://localhost:8080/todo
 
-Todoリスト
+Todoリスト表示機能
+
+## Todolist2
+
+http://localhost:8080/todo
+
+Todoリスト追加機能
 
 ## 別のtomcatへの展開方法
 
