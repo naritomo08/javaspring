@@ -38,6 +38,20 @@ http://localhost:8080/input.html
 
 で各種フォーム情報をいれるとresult.htmlから入力した結果が出てくる。
 
+## Registration2
+
+http://localhost:8080/input.html
+
+で各種フォーム情報をいれるとresult.htmlから入力した結果が出てくる。
+
+@ModelAttributeを使用した入力データ利用
+
+## Game
+
+http://localhost:8080/
+
+数あてゲームの実施
+
 ## 別のtomcatへの展開方法
 
 あらかじめtomcat10/jdk17の環境を用意すること。
@@ -64,6 +78,15 @@ pom.xmlに対し、以下の内容を追記する。
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-thymeleaf</artifactId>
+</dependency>
+
+・Lombokを使用する場合追記
+
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.8</version>
+    <scope>provided</scope>
 </dependency>
 
 ```
