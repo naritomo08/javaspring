@@ -73,33 +73,11 @@ pom.xmlに対し、以下の内容を追記する。
     <scope>provided</scope>
 </dependency>
 
-・thymeleafを使用する場合追記
+・thymeleafを使用する場合上記のあとに追記
 
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-thymeleaf</artifactId>
-</dependency>
-
-・Lombokを使用する場合追記
-
-<dependency>
-    <groupId>org.projectlombok</groupId>
-    <artifactId>lombok</artifactId>
-    <scope>provided</scope>
-</dependency>
-
-・Spring Data JPAを使用する場合追記
-
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-data-jpa</artifactId>
-</dependency>
-
-・PostgreSQL PostgreSQLDriverを使用する場合追記
-
-<dependency>
-    <groupId>org.postgresql</groupId>
-    <artifactId>postgresql</artifactId>
 </dependency>
 
 ```
