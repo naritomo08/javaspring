@@ -64,6 +64,12 @@ http://localhost:8080/todo
 
 Todoリスト追加機能
 
+## Todolist3
+
+http://localhost:8080/todo
+
+Todoリスト更新削除機能
+
 ## 別のtomcatへの展開方法
 
 あらかじめtomcat10/jdk17の環境を用意すること。
