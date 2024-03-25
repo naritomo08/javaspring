@@ -143,3 +143,46 @@ warファイルをwebappsフォルダに入れる。
 以下のURLにアクセスして動作確認する。
 
 http://<TomcatIPアドレス>:8080/<warファイル名>/<Webパス>
+
+## postgresqlデータ導入
+
+ToDoサイト確認で必要になります。
+
+postgresql導入が完了してること。
+
+[PostgreSQLのインストールと基本的な使い方-Mac編-](https://qiita.com/Tiger-Kid/items/8cacb8b89a2d201f4cf8)
+
+### postgresqlログイン
+
+以下のコマンドを入力し、postgresqlにログインする。
+
+```bash
+psql -h localhost -p 5432 -U OSのユーザー名 -d postgres
+```
+
+### ユーザー、DB作成
+
+以下のコマンドを入力する。
+
+```bash
+\i init_database.sql 
+\q
+```
+
+### テーブル作成
+
+以下のコマンドを入力する。
+
+```bash
+psql tododb todouser
+\i init_table.sql
+```
+
+### テーブル削除
+
+必要に応じ、以下のコマンドを入力する。
+
+```bash
+psql tododb todouser
+\i drop_table.sql
+```
